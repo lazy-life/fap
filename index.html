@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT University Academic Portal</title>
+    <link rel="icon" href="./assets/img/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styleindex.css">
+    <script src="./assets/js/indexjs.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nameAdu">
+            <p>FPT University Academic Portal</p>
+        </div>
+
+        <div class="barInforLogin">
+        </div>
+        <div class="parent">
+            <div class="parentLogin">
+                <button onclick="loginP()" type="submit">Đăng nhập</button>
+            </div>
+            <div class="parentFPT">
+                <p>Phụ huynh</p>
+            </div>
+        </div>
+
+        <div class="student">
+            <div class="studentLogin">
+                <div class="userLogin">
+                    <select name="Select Campus" id="campus">
+                        <Option>Select Campus</Option>
+                        <Option>Hoà Lạc</Option>
+                        <Option>Đà Nẵng</Option>
+                        <Option>Hồ Chí Minh</Option>
+                        <Option>Hải Phòng</Option>
+                    </select>
+                    <button onclick="loginS()" type="submit">Sign in</button>
+
+                </div>
+            </div>
+            <div class="studentFPT">
+                <p>Sinh viên, Giảng viên, Cán bộ ĐH-FPT</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

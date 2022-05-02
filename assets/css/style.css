@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.barInforLogin {
+    width: 100%;
+    height: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.parent {
+    width: 49%;
+    height: 100vh;
+    /* background-color: lightblue; */
+    margin-top: 30px;
+    float: left;
+    position: relative;
+}
+
+.parentLogin {
+    width: 100%;
+    height: 100px;
+    border: 1px #dbdada solid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.parentLogin button {
+    background-color: #245580;
+    color: #fff;
+    border: 1px black solid;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.parentFPT {
+    position: absolute;
+    background-color: orange;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    top: 0;
+}
+
+.student {
+    width: 49%;
+    height: 100vh;
+    /* background-color: lightgreen; */
+    margin-top: 30px;
+    float: right;
+    position: relative;
+}
+
+.studentLogin {
+    width: 100%;
+    height: 100px;
+    border: 1px #dbdada solid;
+    border-radius: 5px;
+}
+
+.userLogin {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+#campus {
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.userLogin button {
+    padding: 7px 10px;
+    background-color: rgb(59, 142, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #999797;
+    cursor: pointer;
+}
+
+.studentFPT {
+    position: absolute;
+    background-color: orange;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    top: 0;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 351px) {
+    .container {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .barInforLogin {
+        width: 100%;
+        height: 30px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .parent {
+        float: none;
+        width: 100%;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .student {
+        float: none;
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .studentFPT {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .container {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .barInforLogin {
+        width: 100%;
+        height: 30px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .parent {
+        float: none;
+        width: 100%;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .student {
+        float: none;
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .studentFPT {
+        width: 80%;
+    }
+}
